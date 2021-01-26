@@ -39,6 +39,7 @@
   line-height: 96px;
   font-weight: bold;
   align-items: center;
+  z-index: 2;
 }
 .header__subtitle {
   position: absolute;
@@ -55,16 +56,12 @@
   color: #2f80ed;
 }
 .header__main-illustration {
-  background-image: url(..//images/header-image.png);
-  background-size: cover;
   width: 765px;
   height: 608px;
-  background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 3;
-  overflow: hidden;
+  z-index: 1;
 
 }
 .header__square-pic {
@@ -74,7 +71,7 @@
   position: absolute;
   top: 64px;
   right: 0px;
-  z-index: 1;
+  overflow: hidden;
 }
 .description {
   display: flex;
